@@ -1,0 +1,54 @@
+/* google font link  */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* shared design  */
+body {
+  font-family: "Lato", sans-serif;
+}
+.btn-primary {
+  color: #fff;
+  font-size: 15px;
+  line-height: normal;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 13px 15px 13px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* banner style start from here  */
+header {
+  background-color: #e554731a;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.banner img {
+  width: 350px;
+  padding-top: 39px;
+}
+
+.banner-content-title {
+  font-size: 57px;
+  color: #272727;
+}
+
+.banner-content {
+  max-width: 500px;
+  margin-top: 43px;
+}
+.content-pra {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  line-height: 28px;
+  margin: 30px 0px 30px 0px;
+}
