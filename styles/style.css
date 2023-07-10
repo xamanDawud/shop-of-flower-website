@@ -21,6 +21,29 @@ body {
   cursor: pointer;
 }
 
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-pra {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 15px;
+  width: 400px;
+  font-weight: 400;
+  line-height: 22px;
+  margin: 0 auto;
+  margin-top: 11px;
+}
+
+.fixed-size {
+  width: 1100px;
+  margin: 0 auto;
+}
+
 /* banner style start from here  */
 header {
   background-color: #e554731a;
@@ -51,4 +74,47 @@ header {
   font-size: 15px;
   line-height: 28px;
   margin: 30px 0px 30px 0px;
+}
+
+.feature-flower-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.individual-flower1,
+.individual-flower2,
+.individual-flower3 {
+  width: 261px;
+  border-top-left-radius: 130px;
+  border-top-right-radius: 131px;
+  height: 391px;
+  text-align: center;
+}
+.individual-flower1 img,
+.individual-flower2 img,
+.individual-flower3 img {
+  max-width: 186px;
+  margin-top: 80px;
+  padding: 32px;
+}
+.individual-flower1 {
+  background-color: #f2dee7;
+}
+.individual-flower2 {
+  background-color: #d9eff1;
+}
+.individual-flower3 {
+  background-color: #e3ebdb;
+}
+.individual-flower1 img {
+  margin-top: 101px;
+}
+
+.individual-flower2 img {
+  margin-bottom: 94px;
+}
+
+.feature-flowers {
+  padding-top: 35px;
 }
