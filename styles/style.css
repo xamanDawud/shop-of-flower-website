@@ -85,16 +85,21 @@ header {
 .individual-flower1,
 .individual-flower2,
 .individual-flower3 {
-  width: 261px;
+  width: 350px;
   border-top-left-radius: 130px;
   border-top-right-radius: 131px;
   height: 391px;
   text-align: center;
 }
+.individual-flower1 a,
+.individual-flower2 a,
+.individual-flower3 a {
+  display: block;
+}
 .individual-flower1 img,
 .individual-flower2 img,
 .individual-flower3 img {
-  max-width: 186px;
+  max-width: 237px;
   margin-top: 80px;
   padding: 32px;
 }
@@ -108,11 +113,14 @@ header {
   background-color: #e3ebdb;
 }
 .individual-flower1 img {
-  margin-top: 101px;
+  margin-top: 31px;
 }
 
 .individual-flower2 img {
-  margin-bottom: 94px;
+  margin-bottom: 41px;
+}
+.individual-flower3 img {
+  margin-top: 3px;
 }
 
 .feature-flowers {
