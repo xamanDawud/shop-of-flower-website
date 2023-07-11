@@ -152,3 +152,30 @@ header {
 }
 
 /* extra info section end in here  */
+
+/* Hot deal section style start from here  */
+.hot-deal {
+  background-color: #e554731a;
+}
+.hot-deal-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 64px;
+  padding: 25px;
+}
+.hot-deal-wrapper.fixed-size img {
+  max-width: 211px;
+}
+.btn-signup {
+  display: block;
+  margin: 0 auto;
+  margin-top: 21px;
+}
+.hot-deal-content {
+  margin-top: 48px;
+}
+.hot-deal-highlight {
+  color: #e55473;
+}
+/* Hot deal section style end in here  */
