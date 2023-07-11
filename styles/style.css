@@ -183,12 +183,12 @@ header {
 /* instagram section style start from here  */
 .insta-image {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-content: center;
   margin-top: 24px;
 }
 .insta-image img {
-  max-width: 200px;
+  max-width: 245px;
   margin-right: 21px;
 }
 .insta-section {
@@ -213,3 +213,25 @@ header {
   padding: 14px 18px;
 }
 /* Latest deal section End in  here  */
+/* footer style start from here  */
+footer {
+  background: #111010;
+  margin-top: 50px;
+  padding: 93px;
+}
+footer h2 {
+  color: white;
+  text-align: center;
+}
+footer p {
+  color: #ffffffb0;
+  width: 460px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 22px;
+}
+footer small {
+  color: #ffffff52;
+  margin-left: 39%;
+}
+/* footer style end in here  */
