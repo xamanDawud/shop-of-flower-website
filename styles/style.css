@@ -195,3 +195,21 @@ header {
   margin-top: 50px;
 }
 /* instagram section style end in here  */
+
+/* Latest deal section start from here  */
+.latest-deal {
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 50px;
+  padding: 75px 0px;
+}
+.input-box {
+  border: none;
+  border-radius: 3px;
+  margin-left: 26%;
+  margin-top: 25px;
+  width: 388px;
+  padding: 14px 18px;
+}
+/* Latest deal section End in  here  */
