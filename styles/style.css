@@ -179,3 +179,19 @@ header {
   color: #e55473;
 }
 /* Hot deal section style end in here  */
+
+/* instagram section style start from here  */
+.insta-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 24px;
+}
+.insta-image img {
+  max-width: 200px;
+  margin-right: 21px;
+}
+.insta-section {
+  margin-top: 50px;
+}
+/* instagram section style end in here  */
