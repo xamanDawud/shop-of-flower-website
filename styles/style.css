@@ -95,6 +95,7 @@ header {
 .individual-flower2 a,
 .individual-flower3 a {
   display: block;
+  margin-top: -24px;
 }
 .individual-flower1 img,
 .individual-flower2 img,
@@ -126,3 +127,28 @@ header {
 .feature-flowers {
   padding-top: 35px;
 }
+
+/* extra info section start from here  */
+.extra-info-section {
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+  background-color: #2727270d;
+  border-radius: 10px;
+  margin-top: 96px;
+  padding: 38px 2px;
+}
+.extra-info-section p {
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-size: 14px;
+  line-height: 35px;
+}
+.extra-info-section img {
+  width: 63px;
+}
+.extra-info-section.fixed-size span {
+  text-align: center;
+}
+
+/* extra info section end in here  */
