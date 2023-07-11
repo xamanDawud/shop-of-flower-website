@@ -44,6 +44,29 @@ body {
   margin: 0 auto;
 }
 
+/* navbar style start from here  */
+nav {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 21px;
+}
+nav ul {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+nav ul > li {
+  list-style: none;
+  margin-right: 20px;
+  font-size: 19px;
+  cursor: pointer;
+  color: #0000009c;
+}
+/* navbar style End in here  */
+
 /* banner style start from here  */
 header {
   background-color: #e554731a;
@@ -203,6 +226,7 @@ header {
   background-position: center;
   margin-top: 50px;
   padding: 75px 0px;
+  padding-bottom: 96px;
 }
 .input-box {
   border: none;
